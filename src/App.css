@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #c4e2ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,10 +29,15 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  0% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  80% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
